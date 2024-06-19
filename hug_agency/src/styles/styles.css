@@ -1352,11 +1352,11 @@ header {
   }
 
   .team-images {
-    display: none;
+    display: none;  
   }
 
   .team-slider {
-    display: flex;
+    display: block;
     align-items: center;
     text-align: center;
   }

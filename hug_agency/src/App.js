@@ -8,6 +8,7 @@ import News from "./components/News";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import PageSub from "./components/PageSub";
+import CustomerPage from "./components/CustomerPage";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -20,6 +21,7 @@ function App() {
       <Community />
       <News />
       <Team />
+      <CustomerPage />
       <Contact />
       <PageSub />
     </div>
