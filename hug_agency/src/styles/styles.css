@@ -376,6 +376,17 @@ header {
   font-size: 65%;
 }
 
+.slick-initialized .slick-slide {
+  display: block;
+  margin-left: 1%;
+  margin-bottom: -2%;
+  margin-top: 0.5%;
+}
+
+.slick-initialized .slick-slide .slick-center {
+  transform: scale(1.3);
+}
+
 .slider-image-container img {
   width: 100%;
   height: 100%;
@@ -1328,6 +1339,11 @@ header {
     width: 100%;
   }
 
+  .center .slick-center {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+
   .intro-title {
     font-size: 22px;
   }
@@ -1352,7 +1368,7 @@ header {
   }
 
   .team-images {
-    display: none;  
+    display: none;
   }
 
   .team-slider {
